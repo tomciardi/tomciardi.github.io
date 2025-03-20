@@ -1,0 +1,36 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="compact-publication">
+  <p>
+    {% if post.author_highlight %}
+      {% assign authors_array = post.authors | split: "," %}
+      {% assign highlighted_authors = "" %}
+      
+      {% for author in authors_array %}
+        {% assign trimmed_author = author | strip %}
+        {% if post.author_highlight contains trimmed_author %}
+          <strong>{{ trimmed_author }}</strong>{% if forloop.last %}{% else %},{% endif %}
+        {% else %}
+          {{ trimmed_author }}{% if forloop.last %}{% else %},{% endif %}
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {{ post.authors }}
+    {% endif %}
+    
+    <em>{{ title }}</em>.
+
+    {{ post.venue }}.
+    
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">[paper]</a>{% endif %}
+    {% if post.videourl %}<a href="{{ post.videourl }}">[video]</a>{% endif %}
+    {% if post.codeurl %}<a href="{{ post.codeurl }}">[code]</a>{% endif %}
+    {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[slides]</a>{% endif %}
+  </p>
+</div>
