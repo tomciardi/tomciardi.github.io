@@ -14,15 +14,15 @@ main:
   
   #- title: "Talks"
   #  url: /talks/       
-  #  
+    
   - title: "Projects"
     url: /portfolio/
-  #      
+        
   #- title: "Blog Posts"
   #  url: /year-archive/
-  #  
+  
+  - title: "Experience"
+    url: /markdown/
+
   - title: "Resume"
     url: /files/Ciardi_Resume.pdf
-    
-  #- title: "Guide"
-  #  url: /markdown/

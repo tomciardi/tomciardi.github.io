@@ -13,12 +13,12 @@ My research focused on developing domain-informed active learning and weak super
 
 Currently I am working as a data scientist for the Cleveland VA. My contract finishes at the start of the 2025 summer so I am actively on the job hunt :)
 
-Previously, I conducted research at:
+Previously, I've conducted research at:
 - **NASA Glenn Reserach Center:** transfer learning for [microscopy image foundation models](https://github.com/nasa/pretrained-microscopy-models)
 - **Lawrence Livermore National Laboratory:** sensor fusion and multi-modal learning for defect detection in advanced manufacturing processes
 - **Cleveland Clinic:** synthetic MRI image generation for segmentation robustness 
 
-I have also had multiple industry stints including:
+I've also had some industry stints including:
 - **RIGID Tools:** NLP email classifiers for support case resolution
 - **GE Lighting:** BI dashboard development for smart home technology product usage
 - **Insight2Profit:** unsupervised learning for pricing and sales recommendation modeling

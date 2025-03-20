@@ -24,9 +24,8 @@
       {{ post.authors }}
     {% endif %}
     
-    <em>{{ title }}</em>.
-
-    {{ post.venue }}.
+    <i>{{ post.title }}</i>.
+    {{ post.venue }}
     
     {% if post.paperurl %}<a href="{{ post.paperurl }}">[paper]</a>{% endif %}
     {% if post.videourl %}<a href="{{ post.videourl }}">[video]</a>{% endif %}
