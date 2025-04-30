@@ -12,7 +12,7 @@ redirect_from:
 - B.A. Computer Science, Case Western Reserve University \| *2017 - 2021*
 
 ## Research Experience
-- Graudate Research Assistant **@ MDS3** \| *Jan 2022 - Dec 2024*
+- Graduate Research Assistant **@ MDS3** \| *Jan 2022 - Dec 2024*
 - Data Science Fellow **@ Lawrence Livermore National Laboratory** \| *May 2024 - Aug 2024*
 - Applied Machine Learning Intern **@ NASA** \| *Jan 2023 - Aug 2023*
 - Computer Vision Research Assistant **@ Cleveland Clinic** \| *Aug 2022 - Dec 2022*
