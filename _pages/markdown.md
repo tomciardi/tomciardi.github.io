@@ -18,7 +18,8 @@ redirect_from:
 - Computer Vision Research Assistant **@ Cleveland Clinic** \| *Aug 2022 - Dec 2022*
 
 ## Industry Experience
-- Data Scientist **@ Cleveland VA** \| *Sept 2023 - Present*
+- Software Engineer **@ MorelandConnect** \| *Jun 2025 - Present*
+- Data Scientist **@ Cleveland VA** \| *Sept 2023 - May 2025*
 - Data Scientist **@ RIGID Tools** \| *Aug 2021 - May 2022*
 - Software Governance Intern **@ NBC Universal** \| *Fall 2021*
 - Summer Analyst **@ INSIGHT2PROFIT** \| *Summer 2021*
